@@ -10,3 +10,6 @@ data
   scopeID *String
   dataID **String
   ttl TTL
+
+@static
+folder dist
