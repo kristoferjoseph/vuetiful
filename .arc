@@ -1,9 +1,12 @@
 @app
-node-vue
-
-@static
-folder dist
+lion-v20
 
 @http
 get /
 get /api
+
+@tables
+data
+  scopeID *String
+  dataID **String
+  ttl TTL
